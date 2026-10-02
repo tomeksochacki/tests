@@ -1,10 +1,11 @@
-import { expect, type Locator, type Page } from '@playwright/test';
+import { Browser, expect, type Locator, type Page } from '@playwright/test';
 
 export class SauceDemoLoginPage {
   readonly page: Page;
   readonly usernameField: Locator;
   readonly passwordField: Locator;
   readonly loginButton: Locator;
+  readonly browser: Browser;
 
   constructor(page: Page) {
     this.page = page;
@@ -22,4 +23,10 @@ export class SauceDemoLoginPage {
     await this.passwordField.fill('secret_sauce');
     await this.loginButton.click();
   }
+
+  async exit(){
+    await this.browser.off;
+  }
+
+  
 }
