@@ -19,6 +19,7 @@ test('Correctly placing an order for product. And removing product from cart ', 
   await expect.soft(page.locator('[data-test="shopping-cart-link"]')).toHaveText('');
 
   //fdsfdsfsd
+  //ffffffffffffffff
 
 });
 
