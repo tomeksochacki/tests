@@ -21,6 +21,7 @@ test('Correctly placing an order for product. And removing product from cart ', 
   //fdsfdsfsd
   //ffffffffffffffff
   //ggggggg
+  //dodaję nowo funkcję 
 
 });
 
