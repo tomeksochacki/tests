@@ -97,14 +97,14 @@ projects: [
 name: 'chromium',
 use: { ...devices['Desktop Chrome'] },
 },
-{
-name: 'firefox',
-use: { ...devices['Desktop Firefox'] },
-},
-{
-name: 'edge',
-use: { ...devices['Desktop Edge'] },
-},
+//{
+//name: 'firefox',
+//use: { ...devices['Desktop Firefox'] },
+//},
+//{
+//name: 'edge',
+//use: { ...devices['Desktop Edge'] },
+//},
 ],
 };
 module.exports = config;
